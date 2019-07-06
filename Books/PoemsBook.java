@@ -1,3 +1,0 @@
-class PoemsBook implements Book {
-
-}
