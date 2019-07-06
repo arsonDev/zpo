@@ -11,27 +11,27 @@ public class Cyclist implements Comparable<Cyclist> {
         this.cyclistTime = raceTime();
     }
 
-    public String startRace(){
-        return "Kolarz " + this.cyclistSurname + " rozpoczyna swoja jazde";
+    public String startRace() {
+        return this.cyclistSurname + " rozpoczyna swoja jazde";
     }
 
-    public String stopRace(){
-        return "Kolarz " + this.cyclistSurname + " zakonczy wyscig z czasem " + this.cyclistTime + "s";
+    public String stopRace() {
+        return this.cyclistSurname + " zakonczy wyscig z czasem " + this.cyclistTime + "s";
     }
 
-    private int raceTime(){
+    private int raceTime() {
         Random czasWyscigu = new Random();
-        int time = czasWyscigu.nextInt(500)+1;
-        if(time < this.minRaceTime) {
+        int time = czasWyscigu.nextInt(500) + 1;
+        if (time < this.minRaceTime) {
             return this.minRaceTime;
-        } else if(time > this.maxRaceTime) {
+        } else if (time > this.maxRaceTime) {
             return this.maxRaceTime;
         } else {
             return time;
         }
     }
 
-    public int getCyclistTime(){
+    public int getCyclistTime() {
         return this.cyclistTime;
     }
 

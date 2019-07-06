@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-06T15:24:05.122483400Z</date>
+  <millis>1562426645122</millis>
+  <nanos>483400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Start race</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:05.138484800Z</date>
+  <millis>1562426645138</millis>
+  <nanos>484800</nanos>
+  <sequence>1</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>15</thread>
+  <message>Gorlewski rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:07.138540200Z</date>
+  <millis>1562426647138</millis>
+  <nanos>540200</nanos>
+  <sequence>2</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>16</thread>
+  <message>Fabisiak rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:09.139422100Z</date>
+  <millis>1562426649139</millis>
+  <nanos>422100</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>17</thread>
+  <message>Nawrocik rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:11.139766700Z</date>
+  <millis>1562426651139</millis>
+  <nanos>766700</nanos>
+  <sequence>4</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>18</thread>
+  <message>Poliński rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:13.140218300Z</date>
+  <millis>1562426653140</millis>
+  <nanos>218300</nanos>
+  <sequence>5</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>19</thread>
+  <message>Świerczewski rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:15.140248Z</date>
+  <millis>1562426655140</millis>
+  <nanos>248000</nanos>
+  <sequence>6</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>20</thread>
+  <message>Kośmiński rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:17.141416900Z</date>
+  <millis>1562426657141</millis>
+  <nanos>416900</nanos>
+  <sequence>7</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>21</thread>
+  <message>Jędruch rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:19.141982600Z</date>
+  <millis>1562426659141</millis>
+  <nanos>982600</nanos>
+  <sequence>8</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>22</thread>
+  <message>Jasnowski rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:19.940322Z</date>
+  <millis>1562426659940</millis>
+  <nanos>322000</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>15</thread>
+  <message>Gorlewski zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:21.142923Z</date>
+  <millis>1562426661142</millis>
+  <nanos>923000</nanos>
+  <sequence>10</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>15</thread>
+  <message>Okaj rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:21.940006700Z</date>
+  <millis>1562426661940</millis>
+  <nanos>6700</nanos>
+  <sequence>11</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>16</thread>
+  <message>Fabisiak zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:23.143216800Z</date>
+  <millis>1562426663143</millis>
+  <nanos>216800</nanos>
+  <sequence>12</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>23</thread>
+  <message>Wartak rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:23.940119800Z</date>
+  <millis>1562426663940</millis>
+  <nanos>119800</nanos>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>17</thread>
+  <message>Nawrocik zakonczy wyscig z czasem 250s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:25.143788400Z</date>
+  <millis>1562426665143</millis>
+  <nanos>788400</nanos>
+  <sequence>14</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>16</thread>
+  <message>Mielcarz rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:25.940904800Z</date>
+  <millis>1562426665940</millis>
+  <nanos>904800</nanos>
+  <sequence>15</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>18</thread>
+  <message>Poliński zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:27.144006900Z</date>
+  <millis>1562426667144</millis>
+  <nanos>6900</nanos>
+  <sequence>16</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>24</thread>
+  <message>Dettlaff rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:27.940288300Z</date>
+  <millis>1562426667940</millis>
+  <nanos>288300</nanos>
+  <sequence>17</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>19</thread>
+  <message>Świerczewski zakonczy wyscig z czasem 250s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:29.144683200Z</date>
+  <millis>1562426669144</millis>
+  <nanos>683200</nanos>
+  <sequence>18</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>17</thread>
+  <message>Parzyszek rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:29.940733600Z</date>
+  <millis>1562426669940</millis>
+  <nanos>733600</nanos>
+  <sequence>19</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>20</thread>
+  <message>Kośmiński zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:31.145194400Z</date>
+  <millis>1562426671145</millis>
+  <nanos>194400</nanos>
+  <sequence>20</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>25</thread>
+  <message>Żelewski rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:31.941514100Z</date>
+  <millis>1562426671941</millis>
+  <nanos>514100</nanos>
+  <sequence>21</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>21</thread>
+  <message>Jędruch zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:33.143237100Z</date>
+  <millis>1562426673143</millis>
+  <nanos>237100</nanos>
+  <sequence>22</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>23</thread>
+  <message>Jasnowski zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:33.145911800Z</date>
+  <millis>1562426673145</millis>
+  <nanos>911800</nanos>
+  <sequence>23</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>18</thread>
+  <message>Daszyński rozpoczyna swoja jazde</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:33.942868800Z</date>
+  <millis>1562426673942</millis>
+  <nanos>868800</nanos>
+  <sequence>24</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>22</thread>
+  <message>Okaj zakonczy wyscig z czasem 273s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:35.943741200Z</date>
+  <millis>1562426675943</millis>
+  <nanos>741200</nanos>
+  <sequence>25</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>15</thread>
+  <message>Wartak zakonczy wyscig z czasem 328s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:37.144361900Z</date>
+  <millis>1562426677144</millis>
+  <nanos>361900</nanos>
+  <sequence>26</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>24</thread>
+  <message>Mielcarz zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:39.943969400Z</date>
+  <millis>1562426679943</millis>
+  <nanos>969400</nanos>
+  <sequence>27</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>16</thread>
+  <message>Dettlaff zakonczy wyscig z czasem 250s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:43.946106600Z</date>
+  <millis>1562426683946</millis>
+  <nanos>106600</nanos>
+  <sequence>28</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>17</thread>
+  <message>Parzyszek zakonczy wyscig z czasem 370s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:44.065932700Z</date>
+  <millis>1562426684065</millis>
+  <nanos>932700</nanos>
+  <sequence>29</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>18</thread>
+  <message>Żelewski zakonczy wyscig z czasem 250s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:45.946119600Z</date>
+  <millis>1562426685946</millis>
+  <nanos>119600</nanos>
+  <sequence>30</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Race</class>
+  <method>lambda$0</method>
+  <thread>25</thread>
+  <message>Daszyński zakonczy wyscig z czasem 341s</message>
+</record>
+<record>
+  <date>2019-07-06T15:24:46.151721500Z</date>
+  <millis>1562426686151</millis>
+  <nanos>721500</nanos>
+  <sequence>31</sequence>
+  <logger>Main</logger>
+  <level>FINE</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>End race</message>
+</record>
+</log>

@@ -7,26 +7,26 @@ public class Race {
     int currentCyclistOnRun = 0, currentCyclistEndRun = 0, currentWait = 0;
     boolean raceInProgress = true;
 
-    public Race(CyclistList raceCyclists, int cyclistOnRace) throws InterruptedException {
+    public Race(List<Cyclist> cyclistRace, int cyclistOnRace) throws InterruptedException {
         ScheduledExecutorService raceStart = Executors.newScheduledThreadPool(cyclistOnRace);
         ScheduledFuture<?> schedule1 = null;
 
         try {
             Runnable start = () -> {
-                System.out.println(raceCyclists.cyclists.get(currentCyclistOnRun).startRace());
-                Logger.getLogger(Main.class.getName()).fine(raceCyclists.cyclists.get(currentCyclistOnRun).startRace());
+                System.out.println(cyclistRace.get(currentCyclistOnRun).startRace());
+                Logger.getLogger(Main.class.getName()).fine(cyclistRace.get(currentCyclistOnRun).startRace());
                 currentCyclistOnRun++;
 
                 try {
-                    Thread.sleep((long) ((raceCyclists.cyclists.get(currentCyclistEndRun).cyclistTime / 25.00) * 1000));
+                    Thread.sleep((long) ((cyclistRace.get(currentCyclistEndRun).cyclistTime / 25.00) * 1000));
                     currentWait++;
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
 
-                System.out.println(raceCyclists.cyclists.get(currentCyclistEndRun).stopRace());
-                Logger.getLogger(Main.class.getName()).fine(raceCyclists.cyclists.get(currentCyclistEndRun).stopRace());
-                raceResults.add(raceCyclists.cyclists.get(currentCyclistEndRun));
+                System.out.println(cyclistRace.get(currentCyclistEndRun).stopRace());
+                Logger.getLogger(Main.class.getName()).fine(cyclistRace.get(currentCyclistEndRun).stopRace());
+                raceResults.add(cyclistRace.get(currentCyclistEndRun));
                 this.showRaceResults(true);
                 currentCyclistEndRun++;
 
