@@ -1,0 +1,3 @@
+class HistoricalBook implements Book {
+
+}

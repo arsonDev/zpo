@@ -1,0 +1,3 @@
+class ThirillerBook implements Book {
+
+}
