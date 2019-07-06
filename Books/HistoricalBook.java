@@ -1,3 +1,0 @@
-class HistoricalBook implements Book {
-
-}
